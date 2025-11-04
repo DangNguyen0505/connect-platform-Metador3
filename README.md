@@ -22,7 +22,7 @@ implements. (Refer to BMC document)
 The template includes the following structure:
 
 ```
-📦create_website
+📦connect-platform-Metador3
  ┣ 📂css/         
  ┣ 📂images/  
  ┣ projects.html    
