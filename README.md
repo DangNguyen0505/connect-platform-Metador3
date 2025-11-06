@@ -33,7 +33,8 @@ The template includes the following structure:
 ## Individual Contributions
 ### Dang Huy Nguyen
 - Created github repo
-- 
+- Created navbar and footer
+- Composed landing page
 ### [Team Member 2 Name]
 - Designed and implemented color scheme
 - Created footer component
