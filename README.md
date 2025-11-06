@@ -4,7 +4,7 @@
 - Dang Huy Nguyen - DangNguyen0505
 - Daniel Onwudinanti - DanielOnwudinanti
 - Wale Fadipe - Wale47
-- [Name] - [GitHub Username]
+- Enock Mugisha - [GitHub Username]
 ## Project Description
 A connect platform that helps students find internships/jobs.
 ## Pages Implemented
@@ -35,15 +35,9 @@ The template includes the following structure:
 - Created github repo
 - Created navbar and footer
 - Composed landing page
-### [Team Member 2 Name]
-- Designed and implemented color scheme
-- Created footer component
+### Enock Mugisha
 - [List other specific contributions]
 ### Wale Fadipe
 - Added README entry and setup local dev — Wale
-- 
-- 
-### [Team Member 4 Name]
--
--
--
+### Daniel Onwudinanti
+- [List other specific contributions]
