@@ -4,13 +4,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Metador3 — Bridging Students and Companies</title>
-  <meta name="description" content="Join a platform that connects students with real-world opportunities verified by institutions nationwide." />
-  <!-- Styles -->
+  <meta name="description" content="Metador3 connects students with verified internships, projects, and starter roles from trusted partners." />
+  <link rel="icon" href="images/Metador3Logo.png" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
 
-  <!-- NAVBAR -->
+  <!-- Top navigation -->
   <header class="nav">
     <div class="container nav-wrap">
       <a class="brand" href="/">
@@ -19,60 +19,99 @@
       </a>
 
       <nav class="nav-links" aria-label="Primary">
-        <a class="pill ghost" href="#home">Home</a>
-        <a class="pill ghost" href="#about">About</a>
-        <a class="pill ghost" href="#how">How it works</a>
-        <a class="pill ghost" href="#login">Login</a>
+        <a class="pill ghost pressable" href="#home">Home</a>
+        <a class="pill ghost pressable" href="#about">About</a>
+        <a class="pill ghost pressable" href="#how">How it works</a>
+        <a class="pill ghost pressable" href="#login">Login</a>
       </nav>
 
       <div class="roles">
-        <a class="pill accent" href="company-dashboard.html" aria-label="Company area">Company</a>
-        <a class="pill accent" href="student-dashboard.html" aria-label="Student area">Student</a>
+        <a class="pill accent pressable" href="company-dashboard.html">Company</a>
+        <a class="pill accent pressable" href="student-dashboard.html">Student</a>
       </div>
     </div>
   </header>
 
-  <!-- HERO -->
+  <!-- Hero -->
   <section id="home" class="hero">
     <div class="container hero-grid">
       <div class="hero-text">
         <span class="eyebrow">Bridging students and companies</span>
         <h1>Land real-world experience with opportunities from verified institutions</h1>
         <p>
-          Join a platform that connects you with internships, short-term projects and starter roles —
-          all reviewed for authenticity so you can build skills and a portfolio that gets noticed.
+          Metador3 connects you with internships, short-term projects, and entry-level roles—each verified for authenticity—so you can build real skills and a portfolio that gets noticed.
         </p>
         <div class="cta">
-          <a class="pill primary" href="#signup">Get started</a>
-          <a class="pill" href="#learn">Sign up</a>
+          <a class="pill primary pressable" href="#signup">Get started</a>
+          <a class="pill pressable" href="#learn">Sign up</a>
         </div>
       </div>
 
-      <!-- Decorative card (no hero image needed) -->
-      <div class="hero-card" aria-hidden="true"></div>
+      <!-- Right-side hero panel (fills the white space) -->
+      <div class="hero-card" aria-label="Matches preview panel">
+        <!-- small header -->
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:14px;">
+          <img src="images/Metador3Logo.png" alt="Metador3" style="width:28px;height:28px;border-radius:8px;box-shadow:0 2px 8px rgba(16,20,24,.12);" />
+          <strong style="font-size:15px;">Matches Preview</strong>
+        </div>
+
+        <!-- faux search -->
+        <div style="display:flex; align-items:center; gap:10px; padding:10px 14px; border:1px solid rgba(16,20,24,.08); border-radius:999px; background:#fff; box-shadow:0 2px 10px rgba(16,20,24,.06); margin-bottom:14px;">
+          <span aria-hidden="true" style="opacity:.6;">🔎</span>
+          <input
+            type="text"
+            aria-label="Search roles"
+            placeholder="Search roles, e.g., “Data analyst intern”"
+            style="flex:1; border:none; outline:none; font-size:14px; background:transparent;"
+          />
+        </div>
+
+        <!-- small list of sample matches -->
+        <div style="display:grid; gap:12px;">
+          <div style="display:flex; align-items:center; justify-content:space-between; padding:12px 14px; background:#fff; border:1px solid rgba(16,20,24,.08); border-radius:14px; box-shadow:0 8px 18px rgba(16,20,24,.08);">
+            <div>
+              <div style="font-weight:700;">DataBricks</div>
+              <div style="font-size:14px; opacity:.75;">Data Science Intern • until 09/18/2025</div>
+            </div>
+            <div style="min-width:68px; text-align:center;">
+              <span style="display:inline-block; background:#3ddc84; color:#0b0f14; font-weight:800; padding:8px 10px; border-radius:999px; box-shadow:0 4px 12px rgba(61,220,132,.35); font-size:12px;">98% match</span>
+            </div>
+          </div>
+
+          <div style="display:flex; align-items:center; justify-content:space-between; padding:12px 14px; background:#fff; border:1px solid rgba(16,20,24,.08); border-radius:14px; box-shadow:0 8px 18px rgba(16,20,24,.08);">
+            <div>
+              <div style="font-weight:700;">Apple</div>
+              <div style="font-size:14px; opacity:.75;">Data Analyst Intern • until 09/18/2025</div>
+            </div>
+            <div style="min-width:68px; text-align:center;">
+              <span style="display:inline-block; background:#9be15d; color:#0b0f14; font-weight:800; padding:8px 10px; border-radius:999px; box-shadow:0 4px 12px rgba(155,225,93,.35); font-size:12px;">90% match</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- FEATURES -->
+  <!-- Features -->
   <section id="how" class="features">
     <div class="container">
       <h2>Why Metador3?</h2>
 
       <div class="grid">
-        <article class="card">
-          <span class="badge">Verified Profiles</span>
+        <article class="card pressable">
+          <span class="badge"><span class="emoji" aria-hidden="true">✅</span>Verified Profiles</span>
           <h3>Authenticity you can trust</h3>
           <p>All profiles are verified by institutions and partners to reduce fraud and increase confidence.</p>
         </article>
 
-        <article class="card">
-          <span class="badge">Real-world Projects</span>
+        <article class="card pressable">
+          <span class="badge"><span class="emoji" aria-hidden="true">🧰</span>Real-world Projects</span>
           <h3>Work that builds your portfolio</h3>
           <p>Hands-on, short-term projects matched to your skills help you develop experience fast.</p>
         </article>
 
-        <article class="card">
-          <span class="badge">Mutual Growth</span>
+        <article class="card pressable">
+          <span class="badge"><span class="emoji" aria-hidden="true">🤝</span>Mutual Growth</span>
           <h3>Everyone wins</h3>
           <p>Companies gain new ideas and momentum; students gain experience, references and pathways to jobs.</p>
         </article>
@@ -80,16 +119,15 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
+  <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <small>© 2025 Metador3 — Project Connect</small>
       <div class="roles">
-        <a class="pill ghost" href="projects.html">Browse Projects</a>
+        <a class="pill ghost pressable" href="projects.html">Browse Projects</a>
       </div>
     </div>
   </footer>
 
 </body>
 </html>
-
