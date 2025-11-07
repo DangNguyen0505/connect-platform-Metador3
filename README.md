@@ -4,7 +4,7 @@
 - Dang Huy Nguyen - DangNguyen0505
 - Daniel Onwudinanti - DanielOnwudinanti
 - Wale Fadipe - Wale47
-- Enock Mugisha - [GitHub Username]
+- Enock Mugisha - EnockMugisha941
 ## Project Description
 A connect platform that helps students find internships/jobs.
 ## Pages Implemented
