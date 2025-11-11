@@ -90,5 +90,33 @@
             </div>
         </div>
     </footer>
+    <script>
+const searchInput = document.getElementById("searchName");
+const statusFilter = document.getElementById("filterStatus");
+const applicants = document.querySelectorAll(".applicant-row");
+
+function filterApplicants() {
+    let searchValue = searchInput.value.toLowerCase();
+    let statusValue = statusFilter.value;
+
+    applicants.forEach(row => {
+        const name = row.dataset.name.toLowerCase();
+        const status = row.dataset.status;
+
+        const matchesName = name.includes(searchValue);
+        const matchesStatus = (statusValue === "all" || status === statusValue);
+
+        if (matchesName && matchesStatus) {
+            row.style.display = "flex";
+        } else {
+            row.style.display = "none";
+        }
+    });
+}
+
+searchInput.addEventListener("input", filterApplicants);
+statusFilter.addEventListener("change", filterApplicants);
+</script>
+
 </body>
 </html>
