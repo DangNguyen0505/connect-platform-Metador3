@@ -41,4 +41,7 @@ The template includes the following structure:
 ### Wale Fadipe
 - Added README entry and setup local dev — Wale
 ### Daniel Onwudinanti
-- [List other specific contributions]
+- Composed Projects Page
+- Debugged CSS animation on the landing page
+- designed a matching feature on the projects page
+- implemented custom scaling to UI components 
