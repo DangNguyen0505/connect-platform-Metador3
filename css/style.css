@@ -2097,6 +2097,14 @@ select.success {
                 border-color var(--transition-normal) ease;
 }
 
+.project-listing-card .status { 
+  width: 30%; 
+  padding: 0;
+  border-top-right-radius: var(--radius-lg); 
+  border-bottom-right-radius: var(--radius-lg); 
+  height: 100%;
+}
+
 .project-listing-card:hover {
     transform: translateY(-4px);
     box-shadow: var(--shadow-md);
@@ -2359,6 +2367,10 @@ select.success {
         position: static;
     }
     
+    .sidebar{
+        display: none;
+    }
+
     /* COMPANY HEADER
        Stack company info vertically */
     .company-header {

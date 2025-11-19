@@ -22,7 +22,7 @@
         </div>
     </header>
     <div style="display: grid; grid-template-columns: auto 1fr;">
-        <nav class="sidebar">
+        <nav class="sidebar" style="height: 100%;">
             <ul>
                 <li>
                     <a href="#customize">
@@ -43,7 +43,7 @@
         </nav>
         <main>
             <div class="container profile-section" style="display: flex; padding-bottom: 1rem;">
-                <div class="container profile" style="width: 30%; border: solid; border-radius: 25px;">
+                <div class="container profile" style="width: 30%; border: solid; border-radius: 25px; background-color: var(--background)">
                     <h1 style="text-align: center;">Student Name</h1>
                     <img src="./images/avatar.png" alt="">
                     <div class="profile-info">
@@ -54,7 +54,7 @@
                     </div>
                 </div>
 
-                <div class="container" style="width: 60%; border: solid; border-radius: 25px;">
+                <div class="container" style="width: 60%; border: solid; border-radius: 25px; background-color: var(--background);">
                     <img src="./images/videoimage.jpg" alt="" style="padding-top: 25px;">
                     <p>Skills: </p>
                     <p>Hobbies:</p>
@@ -70,7 +70,7 @@
                         <div>Data Intern</div>
                         <div>Date applied: 11/11/25</div>
                     </div>
-                    <div style="background-color: var(--success-color); width: 30%; padding: 0;border-top-right-radius: var(--radius-lg); border-bottom-right-radius: var(--radius-lg);">
+                    <div class="status" style="background-color: var(--success-color);">
                         <p style="text-align: center; padding-top:40%;font-size: x-large; color: white;">✓</p>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                         <div>Data Intern</div>
                         <div>Date applied: 11/11/25</div>
                     </div>
-                    <div style="background-color: var(--error-color); width: 30%; padding: 0;border-top-right-radius: var(--radius-lg); border-bottom-right-radius: var(--radius-lg);">
+                    <div class="status" style="background-color: var(--error-color);">
                         <p style="text-align: center; padding-top:40%;font-size: x-large; color: white;">X</p>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                         <div>Data Intern</div>
                         <div>Date applied: 11/11/25</div>
                     </div>
-                    <div style="background-color: var(--warning-color); width: 30%; padding: 0;border-top-right-radius: var(--radius-lg); border-bottom-right-radius: var(--radius-lg);">
+                    <div class="status" style="background-color: var(--warning-color);">
                         <p style="text-align: center; padding-top:40%;font-size: x-large; color: white;">
                             ?
                         </p>
